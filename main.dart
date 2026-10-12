@@ -13,4 +13,5 @@ print("Höhe in Fuß: ${dreieck2.heightInFeet}");
 print(dreieck1.getHeight(Masseinheiten.cm));
 dreieck1.setHeight(Masseinheiten.cm, 250);
 print(dreieck1.heightInMeters);
+print("Fläche: ${dreieck1.area} m²");
 }

@@ -49,4 +49,7 @@ Triangle._(this._width, this._height);
     double getHeight(Masseinheiten ms) {
   return _height / ms.faktor;
 }
+void setHeight(Masseinheiten ms, int value) {
+  _height = value * ms.faktor;
+}
 }

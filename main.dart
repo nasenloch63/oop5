@@ -9,4 +9,6 @@ dreieck1.heightInMeters = 7;
 print("Höhe in Meter: ${dreieck1.heightInMeters}");
 print("Breite in Meter: ${dreieck1.widthInMeters}");
 print("Höhe in Fuß: ${dreieck2.heightInFeet}");
+
+print(dreieck1.getHeight(Masseinheiten.cm));
 }

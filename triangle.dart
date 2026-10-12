@@ -45,4 +45,8 @@ Triangle._(this._width, this._height);
 
   Triangle(double width, double height, Masseinheiten einheit)
     : this._(width * einheit.faktor, height * einheit.faktor);
+    
+    double getHeight(Masseinheiten ms) {
+  return _height / ms.faktor;
+}
 }
